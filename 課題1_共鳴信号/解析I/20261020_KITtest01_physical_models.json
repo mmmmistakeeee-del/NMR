@@ -1,0 +1,56 @@
+{
+  "lorentz": {
+    "shape_parameters": [
+      0.03981280498786971,
+      1.672135545391593
+    ],
+    "linear_parameters": [
+      12.804671437273246,
+      -0.008051851893412811,
+      5.624817258074316e-05
+    ]
+  },
+  "gaussian": {
+    "shape_parameters": [
+      0.01244472261008207,
+      1.2327579905670851
+    ],
+    "linear_parameters": [
+      6.152899074506312,
+      -0.00433712300114588,
+      1.7505266064254087e-05
+    ]
+  },
+  "modulated_lorentz": {
+    "shape_parameters": [
+      0.018251257388706633,
+      1.0669490846168566,
+      1.3324763513894204
+    ],
+    "linear_parameters": [
+      9.673037850352573,
+      -0.006332923611953381,
+      3.8218264589675276e-05
+    ]
+  },
+  "voigt": {
+    "shape_parameters": [
+      0.017762131763613787,
+      0.4839378565807445,
+      1.0348584233329212
+    ],
+    "linear_parameters": [
+      7.671985599286707,
+      -0.005206325137270784,
+      2.6455651185502103e-05
+    ]
+  },
+  "assumptions": {
+    "frequency_reference_Hz": 16010605.0,
+    "core_points": 75,
+    "fit": "Unweighted least squares; linear baseline; identical full data",
+    "modulation": "Quasi-static sinusoidal field modulation; peak excursion",
+    "noise": "AIC assumes independent equal-variance Gaussian noise; diagnostic only",
+    "limitations": "No sweep lag or finite modulation frequency dynamics; no T2 inference"
+  }
+}

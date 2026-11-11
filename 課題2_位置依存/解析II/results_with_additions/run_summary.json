@@ -1,0 +1,145 @@
+{
+  "created_utc": "2026-11-10T13:14:12.258547+00:00",
+  "input": "C:\\Users\\ko---\\2026год\\物理学実験\\NMR\\課題2_位置依存\\実験II",
+  "unit": "Hz",
+  "baseline": "linear",
+  "fmin_Hz": null,
+  "fmax_Hz": null,
+  "files": 83,
+  "rows": 83,
+  "statuses": {
+    "warning": 72,
+    "ok": 11
+  },
+  "duplicate_coordinates": [],
+  "numpy_version": "1.26.4",
+  "error_definition": "1-sigma local least-squares covariance; iid equal-variance residuals; no systematics",
+  "model": "-2*Gamma^2*L0*(f-f0)/(Gamma^2+(f-f0)^2)^2+b0+b1*(f-f_ref)",
+  "additional_inputs": [
+    "C:\\Users\\ko---\\2026год\\物理学実験\\NMR\\課題2_位置依存\\測定記録\\20261104",
+    "C:\\Users\\ko---\\2026год\\物理学実験\\NMR\\課題2_位置依存\\測定記録\\20261110"
+  ],
+  "input_files": 93,
+  "superseded_files": [
+    {
+      "filename": "20261027_KIT_x4.5_z2.5.dat",
+      "x": 4.5,
+      "z": 2.5,
+      "date": "20261027",
+      "revision": 1,
+      "selected_date": "20261110",
+      "selected_revision": 1,
+      "selected_filenames": [
+        "20261110_x4.5_z2.5_01.dat"
+      ]
+    },
+    {
+      "filename": "20261027_KIT_x4.5_z3.0.dat",
+      "x": 4.5,
+      "z": 3.0,
+      "date": "20261027",
+      "revision": 1,
+      "selected_date": "20261110",
+      "selected_revision": 1,
+      "selected_filenames": [
+        "20261110_x4.5_z3.0_01.dat"
+      ]
+    },
+    {
+      "filename": "20261027_KIT_x4.5_z3.5.dat",
+      "x": 4.5,
+      "z": 3.5,
+      "date": "20261027",
+      "revision": 1,
+      "selected_date": "20261110",
+      "selected_revision": 1,
+      "selected_filenames": [
+        "20261110_x4.5_z3.5_01.dat"
+      ]
+    },
+    {
+      "filename": "20261027_KIT_x4.5_z4.0_2.dat",
+      "x": 4.5,
+      "z": 4.0,
+      "date": "20261027",
+      "revision": 2,
+      "selected_date": "20261110",
+      "selected_revision": 1,
+      "selected_filenames": [
+        "20261110_x4.5_z4.0_01.dat"
+      ]
+    },
+    {
+      "filename": "20261104_x6.0_z4.0.dat",
+      "x": 6.0,
+      "z": 4.0,
+      "date": "20261104",
+      "revision": 1,
+      "selected_date": "20261104",
+      "selected_revision": 2,
+      "selected_filenames": [
+        "20261104_x6.0_z4.0_2.dat"
+      ]
+    },
+    {
+      "filename": "20261110_x2.5_z2.5_01.dat",
+      "x": 2.5,
+      "z": 2.5,
+      "date": "20261110",
+      "revision": 1,
+      "selected_date": "20261110",
+      "selected_revision": 2,
+      "selected_filenames": [
+        "20261110_x2.5_z2.5_02.dat"
+      ]
+    },
+    {
+      "filename": "20261110_x2.5_z4.0_01.dat",
+      "x": 2.5,
+      "z": 4.0,
+      "date": "20261110",
+      "revision": 1,
+      "selected_date": "20261110",
+      "selected_revision": 2,
+      "selected_filenames": [
+        "20261110_x2.5_z4.0_02.dat"
+      ]
+    },
+    {
+      "filename": "20261110_x3.0_z3.0_01.dat",
+      "x": 3.0,
+      "z": 3.0,
+      "date": "20261110",
+      "revision": 1,
+      "selected_date": "20261110",
+      "selected_revision": 2,
+      "selected_filenames": [
+        "20261110_x3.0_z3.0_02.dat"
+      ]
+    },
+    {
+      "filename": "20261110_x3.0_z4.0_01.dat",
+      "x": 3.0,
+      "z": 4.0,
+      "date": "20261110",
+      "revision": 1,
+      "selected_date": "20261110",
+      "selected_revision": 2,
+      "selected_filenames": [
+        "20261110_x3.0_z4.0_02.dat"
+      ]
+    },
+    {
+      "filename": "20261110_x4.0_z3.0_01.dat",
+      "x": 4.0,
+      "z": 3.0,
+      "date": "20261110",
+      "revision": 1,
+      "selected_date": "20261110",
+      "selected_revision": 2,
+      "selected_filenames": [
+        "20261110_x4.0_z3.0_02.dat"
+      ]
+    }
+  ]
+}

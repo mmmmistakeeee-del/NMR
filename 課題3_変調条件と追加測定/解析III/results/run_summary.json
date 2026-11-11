@@ -1,0 +1,45 @@
+{
+  "input_files": 41,
+  "files": 33,
+  "rows": 33,
+  "excluded_test_files": [
+    "20261104_v1.3_f20_test01.dat",
+    "20261104_v1.3_f20_test02.dat",
+    "20261104_v1.3_f20_test03.dat",
+    "20261104_v1.3_f20_test04.dat"
+  ],
+  "superseded_files": [
+    "20261104_v1.3_f120_01.dat",
+    "20261104_v1.3_f20_01.dat",
+    "20261104_v1.3_f60_01.dat",
+    "20261104_x6.0_z4.0.dat"
+  ],
+  "statuses": {
+    "warning": 18,
+    "ok": 15
+  },
+  "raw_data_sha256_verified": true,
+  "model": "derivative Lorentz + linear background",
+  "settings": {
+    "source": "User messages in this chat, 2026-11-09 and 2026-11-10",
+    "fixed_sample_position": "\u4e2d\u592e",
+    "fixed_position_scope": "Voltage and modulation-frequency series",
+    "central_position_coordinates": {
+      "x": 4.5,
+      "z": 4.5
+    },
+    "delay_time_s": 1.0,
+    "sensitivity": null,
+    "lockin_phase": null,
+    "time_constant_s": null,
+    "voltage_convention": null,
+    "modulation_field_calibration": null,
+    "setting_changes": null
+  },
+  "signal_strength": "Peak-to-peak of baseline-subtracted fitted signal",
+  "uncertainty": "Local iid least-squares covariance; parameter covariance included for strength",
+  "software": {
+    "fit_conditions.py": "922f50a9a2c3cdeb94a5a5ab62b5b16631a00ab5b7cf08bd60c800f644dc925d",
+    "fit_nmr_batch.py": "b7f4006b501f88beb950a5db14df70957d987320960f6e52526fedb4762f02be"
+  }
+}

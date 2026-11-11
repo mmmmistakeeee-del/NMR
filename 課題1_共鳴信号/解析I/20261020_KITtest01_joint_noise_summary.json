@@ -1,0 +1,68 @@
+{
+  "mean_model": "finite-modulation Voigt + linear baseline; unweighted LS; 7 mean parameters",
+  "reference_Hz": 16010605.0,
+  "shape_parameters_kHz": {
+    "center": 0.017761922983270388,
+    "gamma": 0.48394050183045273,
+    "sigma": 1.0348568700533622,
+    "modulation_peak": 0.0
+  },
+  "linear_parameters": {
+    "amplitude": 7.671991760265358,
+    "offset": -0.005206328769783317,
+    "slope_per_kHz": 2.6455689329218587e-05
+  },
+  "SSE": 3.211738068726053,
+  "RMS": 0.05068915520089916,
+  "core_RMS": 0.06466000731347785,
+  "core_lag1": 0.5687783343321933,
+  "n": 1250,
+  "core_n": 75,
+  "quadrature_128_vs_256_max_signal_difference": 0.0,
+  "selected_conditional_noise_model": "white_plus_correlated_gain",
+  "noise_parameters": {
+    "trend": 0.12618878810062595,
+    "jitter": 0.0,
+    "gain": 0.08311300184637536,
+    "rho": 0.798790295551989,
+    "log_sigma": -3.025862989676341
+  },
+  "noise_frequency_scaling": {
+    "mean_offset_kHz": 27.279488,
+    "std_kHz": 55.58425955985972
+  },
+  "mean_parameter_bounds_kHz": {
+    "center": [
+      -5,
+      5
+    ],
+    "gamma": [
+      0.02,
+      5
+    ],
+    "sigma": [
+      0,
+      3
+    ],
+    "modulation_peak": [
+      0,
+      3
+    ]
+  },
+  "baseline_left_SD": 0.04321356961103613,
+  "baseline_right_SD": 0.05652374026623073,
+  "baseline_lag1_by_side": [
+    0.023544742166739116,
+    0.010779693649452998
+  ],
+  "limitations": [
+    "Noise models condition on the estimated mean; neither mean uncertainty nor joint MLE is included.",
+    "Conditional score=2*NLL+2*noise_parameter_count, only an exploratory comparison; no significance claim.",
+    "Profile reference deviance assumes iid constant-variance noise; no confidence interval is asserted.",
+    "Near zero modulation the profile is flat; a tiny positive optimizer value is not a measured modulation amplitude.",
+    "AR(1) rho is per row, not seconds or frequency distance; sampling times are unknown.",
+    "Correlated residuals may be deterministic mean-model error, not random noise.",
+    "Gaussian static spread and small per-point jitter are effective descriptions, not identified sources.",
+    "No sweep lag, full Bloch dynamics, magnetic field calibration, or intrinsic T2 extraction."
+  ]
+}

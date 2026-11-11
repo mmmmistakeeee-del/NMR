@@ -1,0 +1,13 @@
+{
+  "source": "User messages in this chat, 2026-11-09 and 2026-11-10",
+  "fixed_sample_position": "中央",
+  "fixed_position_scope": "Voltage and modulation-frequency series",
+  "central_position_coordinates": {"x": 4.5, "z": 4.5},
+  "delay_time_s": 1.0,
+  "sensitivity": null,
+  "lockin_phase": null,
+  "time_constant_s": null,
+  "voltage_convention": null,
+  "modulation_field_calibration": null,
+  "setting_changes": null
+}

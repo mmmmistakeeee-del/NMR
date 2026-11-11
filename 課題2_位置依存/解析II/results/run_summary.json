@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-10-29T02:55:12.578035+00:00",
+  "input": "C:\\Users\\ko---\\Университет\\2026год\\物理学実験\\NMR\\実験II",
+  "unit": "Hz",
+  "baseline": "linear",
+  "fmin_Hz": null,
+  "fmax_Hz": null,
+  "files": 51,
+  "rows": 51,
+  "statuses": {
+    "warning": 47,
+    "ok": 4
+  },
+  "duplicate_coordinates": [],
+  "numpy_version": "2.2.6",
+  "error_definition": "1-sigma local least-squares covariance; iid equal-variance residuals; no systematics",
+  "model": "-2*Gamma^2*L0*(f-f0)/(Gamma^2+(f-f0)^2)^2+b0+b1*(f-f_ref)"
+}

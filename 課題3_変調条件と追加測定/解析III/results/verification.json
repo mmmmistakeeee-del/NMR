@@ -1,0 +1,16 @@
+{
+  "raw_files_checked_against_previous_hashes": 41,
+  "selected_modulation_files": 29,
+  "selected_position_files": 4,
+  "test_and_superseded_inputs_excluded": true,
+  "fit_values_match_previous_values_for_selected_files": true,
+  "individual_diagnostics": 33,
+  "covariance_matrices": 33,
+  "window_rows": 66,
+  "model_comparison_rows": 15,
+  "quadrature_refinement_verified": true,
+  "current_software_sha256": {
+    "compare_models.py": "7b84558e9ed32b307045ffb2da396b54952a9a577cc19ccc0927c4066eab7f60",
+    "fit_conditions.py": "922f50a9a2c3cdeb94a5a5ab62b5b16631a00ab5b7cf08bd60c800f644dc925d"
+  }
+}

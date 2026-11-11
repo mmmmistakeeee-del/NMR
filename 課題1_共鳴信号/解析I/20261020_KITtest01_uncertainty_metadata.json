@@ -1,0 +1,29 @@
+{
+  "method": "Parametric bootstrap of the full two-stage estimator; same noise-model structure",
+  "replicates_requested": 300,
+  "mean_successes": 300,
+  "seed": 20261028,
+  "workers": 4,
+  "noise_successes": 300,
+  "noise_model": "white_plus_correlated_gain",
+  "noise_parameters_refitted": true,
+  "source_sha256": "51c64b9b8c6a24545b2099908db871d50c348f9da36f190faf771f15311b4138",
+  "boundary_fractions": {
+    "gamma_lower_boundary": 0.0,
+    "sigma_lower_boundary": 0.0,
+    "modulation_lower_boundary": 0.4633333333333333,
+    "any_upper_boundary": 0.0
+  },
+  "failures": [],
+  "sd_definition": "sample standard deviation across fitted bootstrap estimates, ddof=1; no division by sqrt(B)",
+  "limitations": [
+    "Conditional on fitted generating noise parameters and mean family; no model-selection uncertainty",
+    "Nonregular/boundary widths: percentile ranges are descriptive; nominal coverage not established",
+    "No frequency calibration, sweep-lag, modulation-calibration or missing-physics systematics",
+    "Noise SD is different from uncertainty of the estimated noise SD",
+    "AR correlation is per observation, not seconds",
+    "Percentile endpoints have finite Monte Carlo error; increase replicates for more stable endpoints"
+  ],
+  "rho_defined_refits": 297,
+  "analysis_sha256": "e8b4bdbea52e35d18e6142335fc074a8d54cb09ddbefecb4a615d3373d85baab"
+}
