@@ -108,7 +108,7 @@ def main():
                              gamma_kHz=q[1], sigma_kHz=q[2], modulation_peak_kHz=q[3],
                              unmodulated_absorption_fwhm_kHz=2 * half_width,
                              residual_rms=np.sqrt(fit['sse'] / len(x)),
-                             residual_lag1=np.corrcoef(residual[:-1], residual[1:])[0, 1],
+                             residual_lag1=np.corrcoef(residual[:-1], residual[1:])[0, 1], #隣接相関
                              rms_ratio_to_lorentz=np.sqrt(fit['sse'] / len(x)) / row.residual_rms,
                              at_bound=fit['at_bound'], quadrature_nodes=fit['nodes'],
                              quadrature_max_error=fit['quadrature_error']))
